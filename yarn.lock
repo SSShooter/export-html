@@ -140,6 +140,11 @@ esbuild@^0.15.6:
     esbuild-windows-64 "0.15.10"
     esbuild-windows-arm64 "0.15.10"
 
+file-saver@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.npmmirror.com/file-saver/-/file-saver-2.0.5.tgz#d61cfe2ce059f414d899e9dd6d4107ee25670c38"
+  integrity sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==
+
 fsevents@~2.3.2:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
@@ -164,10 +169,10 @@ is-core-module@^2.9.0:
   dependencies:
     has "^1.0.3"
 
-mind-elixir@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/mind-elixir/-/mind-elixir-1.1.0.tgz#c92852ec840753a2968ee43bfe8ae8788a985dcd"
-  integrity sha512-psDFfnCP8/IAfZ5DGZ73Mza2mosnmy7sPHMct7n5+4Ja62oAwhipOOqa6pubXy5ZRe4LT+huuWsn5rtd/zDTJQ==
+mind-elixir@1.1.3:
+  version "1.1.3"
+  resolved "https://registry.npmmirror.com/mind-elixir/-/mind-elixir-1.1.3.tgz#fe6ad3a15eaef87a589b96220c936002e28ed8e3"
+  integrity sha512-/S1adtMwLd2sUeVm0CDaMfXzQZYbEFTp3gnoharXt9hAc95M6RcknH4VXlDG9pDSXddbHazCqsYLeOB5Y8g60A==
 
 nanoid@^3.3.4:
   version "3.3.4"

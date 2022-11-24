@@ -1,9 +1,8 @@
 import MindElixir, { E } from 'mind-elixir'
-import { exportSvg, exportPng } from 'mind-elixir/dist/painter'
 import example from 'mind-elixir/dist/example1'
 
-import exportXmind from './index'
-// import exportXmind from '@mind-elixir/export-xmind'
+import exportHtml from './index'
+// import exportHtml from '@mind-elixir/export-html'
 
 const app = document.querySelector('#app')
 app.style.marginTop = '50px'
@@ -55,7 +54,7 @@ const options = {
 }
 
 const mind = new MindElixir(options)
-mind.install(exportXmind)
+mind.install(exportHtml)
 const data = MindElixir.new('new topic')
 mind.init(example) // or try `example`
 function sleep() {
@@ -88,5 +87,3 @@ mind.bus.addListener('expandNode', (node) => {
 window.m = mind
 window.M = MindElixir
 window.E = MindElixir.E
-window.exportSvg = exportSvg
-window.exportPng = exportPng

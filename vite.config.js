@@ -5,14 +5,14 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'index.js'),
-      name: '@mind-elixir/template-name',
+      name: '@mind-elixir/export-html',
       // the proper extensions will be added
-      fileName: 'template-name',
+      fileName: 'export-html',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
       // into your library
-      external: [],
+      external: ['file-saver'],
       output: {
         // Provide global variables to use in the UMD build
         // for externalized deps
