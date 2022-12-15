@@ -25,7 +25,7 @@ const blob = await mind.exportHtml() // get blob
 mind.exportHtmlFile(fileName) // download file
 ```
 
-### MindElixir Data To Xmind
+### MindElixir Data To Html
 
 ```javascript
 import { data2Html } from '@mind-elixir/export-html'
