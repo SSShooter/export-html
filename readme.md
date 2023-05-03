@@ -30,5 +30,5 @@ mind.exportHtmlFile(fileName) // download file
 ```javascript
 import { data2Html } from '@mind-elixir/export-html'
 // use this way to avoid creating instance
-const blob = await data2Html(JSON.parse(JSON.stringify(data))) // data returned by getAllData()
+const blob = await data2Html(JSON.parse(JSON.stringify(data))) // data returned by getData()
 ```
