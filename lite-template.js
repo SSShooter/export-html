@@ -1,5 +1,5 @@
 /* eslint-disable import/no-webpack-loader-syntax */
-import js from 'mind-elixir/dist/MindElixirLite.js?raw'
+import js from 'mind-elixir/lite?raw'
 
 export default data => `<!DOCTYPE html>
 <html lang="en">

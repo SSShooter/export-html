@@ -1,9 +1,9 @@
-import MindElixir, { E } from 'mind-elixir'
-import example from 'mind-elixir/dist/example1'
+import MindElixir from 'mind-elixir'
+import example from 'mind-elixir/example'
 
 import exportHtml from './index'
 // import exportHtml from '@mind-elixir/export-html'
-
+const E = MindElixir.E
 const app = document.querySelector('#app')
 app.style.marginTop = '50px'
 app.style.height = '800px'

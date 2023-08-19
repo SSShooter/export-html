@@ -1,6 +1,6 @@
 {
   "name": "@mind-elixir/export-html",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "type": "module",
   "files": [
     "dist"
@@ -19,11 +19,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "mind-elixir": "^2.0.0",
+    "mind-elixir": "^3.0.1",
     "vite": "^3.0.0"
   },
   "peerDependencies": {
-    "mind-elixir": "^2.0.0"
+    "mind-elixir": "^3.0.0"
   },
   "dependencies": {
     "file-saver": "^2.0.5"

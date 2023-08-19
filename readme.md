@@ -32,3 +32,11 @@ import { data2Html } from '@mind-elixir/export-html'
 // use this way to avoid creating instance
 const blob = await data2Html(JSON.parse(JSON.stringify(data))) // data returned by getData()
 ```
+
+### Compatibility
+
+```
+@mind-elixir/export-html@1.0.0 -> mind-elixir 1.x
+@mind-elixir/export-html@2.0.0 -> mind-elixir 2.x
+@mind-elixir/export-html@3.0.0 -> mind-elixir 3.x
+```
