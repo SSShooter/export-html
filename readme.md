@@ -1,3 +1,8 @@
+**This project has been moved to https://github.com/mind-elixir/plugins/tree/main/packages/export-mindmap. This repository will no longer be maintained.**
+
+
+---
+
 # @mind-elixir/export-html
 
 `@mind-elixir/export-html` is a plugin of [mind-elixir-core](https://github.com/ssshooter/mind-elixir-core). You can use `@mind-elixir/export-html` to export a `.html` file.
@@ -39,4 +44,5 @@ const blob = await data2Html(JSON.parse(JSON.stringify(data))) // data returned 
 @mind-elixir/export-html@1.0.0 -> mind-elixir 1.x
 @mind-elixir/export-html@2.0.0 -> mind-elixir 2.x
 @mind-elixir/export-html@3.0.0 -> mind-elixir 3.x
+
 ```
